@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { LogbookTableComponent } from './logbook-table/logbook-table.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LogbookTableComponent
   ],
   imports: [
     BrowserModule
